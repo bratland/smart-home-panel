@@ -1,0 +1,27 @@
+menu "Smart Home Panel Configuration"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "your_wifi_ssid"
+        help
+            WiFi network name to connect to.
+
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "your_wifi_password"
+        help
+            WiFi password.
+
+    config HA_BASE_URL
+        string "Home Assistant base URL"
+        default "http://192.168.1.233:8123"
+        help
+            Home Assistant base URL (no trailing slash).
+
+    config HA_TOKEN
+        string "Home Assistant Long-Lived Access Token"
+        default ""
+        help
+            Long-Lived Access Token from HA Profile page.
+
+endmenu

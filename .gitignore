@@ -1,0 +1,14 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+
+# Managed components (auto-downloaded)
+managed_components/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
